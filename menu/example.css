@@ -4,23 +4,14 @@ h1 {
   text-align: center;
 }
 h1:hover {
-  /* opacity saydamlık kat sayısıdır. yazıyı silik yani saydam yapar  */
   opacity: 0.5;
   cursor: pointer;
 
-  /* cursor:pointer; el işareti yapar farenin okunu*/
+
 }
 li {
   list-style-type: none;
   color: saddlebrown;
-}
-li:hover {
-  color:brown;
-  font-weight: 800;
-  cursor: pointer;
-  background-color:tomato;
-}
-li {
   background-color: antiquewhite;
   text-align: center;
   width: 100px;
@@ -30,9 +21,12 @@ li {
   padding:3px;
   display: inline-block;
 }
-/* Class'a göre seçim*/
-.img-div {
-  text-align: center;
+li:hover {
+  color:brown;
+  font-weight: 800;
+  cursor: pointer;
+  background-color:tomato;
 }
+
 
 
