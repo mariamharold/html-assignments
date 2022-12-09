@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("background_image_netflix.jpg");
+}
+p{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 23px;
+    text-align: center;
+}
+.main {
+  background-color: rgb(0, 0, 0, 0.4);
+  /* height: 110vh; */
+  width: 75%;
+  margin: 10px auto;
+  margin-bottom: 10px;
+}
+h1 {
+  font-family: Bowlby One SC;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: auto;
+}
+.form {
+  font-family: 'Roboto', sans-serif;
+  width: 30%;
+  height:90%;
+  margin: 10px auto;
+  background-color: rgb(0, 0, 0, 0.8);
+  text-align: left;
+  padding: 30px;
+}
+
+span {
+  color: red;
+}
+p {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+label {
+  color: white;
+}
+.white {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.send {
+  background-color: red;
+  border-radius: 15px;
+  border-color: red;
+  width: 160px;
+  height: 45px;
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 10px;
+  display: inline;
+  
+  color:white;
+}
+.box input,select{
+  width: 100%;
+  height: 40px;
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+}
+textarea{
+    resize: none;
+}
+.btn{
+    text-align: center;
+}
