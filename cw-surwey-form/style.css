@@ -10,12 +10,15 @@ h1{
     font-size:50px;
 }
 div{
-    width: 50%;
+    width: 70%;
+}
+.labels{
+    font-size: 1.5rem;
 }
 div,input,label,option,select{
     margin-top: 10px;
 }
 input[type=text],input[type=email]{
-    width: 100%;
-    height: 30px;
+    width: 45%;
+    height: 25px;
 }
